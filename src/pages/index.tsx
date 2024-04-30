@@ -8,7 +8,7 @@ export default function Home() {
         <meta charSet="UTF-8"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
         <title>strobi</title>
-        <link rel="icon" href="icon.png" />
+        <link rel="icon" href="favicon.ico" />
       </Head>
       <main className="pl-8 pt-8">
         <h1 className="text-5xl"><strong>🍓 strobi</strong></h1>
