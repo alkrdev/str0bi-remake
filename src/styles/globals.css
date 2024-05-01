@@ -1,6 +1,13 @@
 @tailwind base;
 @tailwind components;
+
+@font-face {
+    font-family: 'W95font';
+    src: local('W95font'), url("/fonts/w95font.woff") format("woff");
+}
+
 @tailwind utilities;
+
 
 @layer components {
     .subtext {
@@ -10,16 +17,10 @@
 
 :root { 
     --ctp-macchiato-text: #cad3f5;
-    --ctp-macchiato-text-rgb: 202 211 245;
-    --ctp-macchiato-text-hsl: 227.442 68.254% 87.647%;
     
     --ctp-macchiato-subtext0: #a5adcb;
-    --ctp-macchiato-subtext0-rgb: 165 173 203;
-    --ctp-macchiato-subtext0-hsl: 227.368 26.761% 72.157%;
     
     --ctp-macchiato-base: #24273a;
-    --ctp-macchiato-base-rgb: 36 39 58;
-    --ctp-macchiato-base-hsl: 231.818 23.404% 18.431%;   
 }
 
 a, p, h1, h2, li, ul {

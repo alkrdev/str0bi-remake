@@ -10,8 +10,8 @@ export default function Home() {
         <title>strobi</title>
         <link rel="icon" href="favicon.ico" />
       </Head>
-      <main className="pl-8 pt-8">
-        <h1 className="text-5xl"><strong>🍓 strobi</strong></h1>
+      <main className="pl-8 pt-8 font-W95font">
+        <h1 className="text-5xl font-W95font"><strong>🍓 strobi</strong></h1>
         <p className="subtext">Current Favorite Song: <Link href="https://open.spotify.com/playlist/5AHdgtb9mzsKdIr9vE0j3G?si=814cc2120f6e4946">Fred again.., Brian Eno - Secret</Link></p>
 
         <h2 className="text-3xl"><strong><br />✨ Latest LLP Releases</strong></h2>
