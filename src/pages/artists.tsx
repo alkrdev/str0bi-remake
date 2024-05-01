@@ -15,6 +15,9 @@ export default function artists() {
         <h1 className="text-5xl"><strong>🎤 Artists (Songs) I Love</strong></h1>
         <p className="subtext"><Link href="/">Back to hub</Link></p>
 
+        <p className="text-2xl"><strong><br />Fred again..</strong></p>
+        <p className="subtext">Favorite Songs: All of "Secret Life", Hannah (the sun)</p>
+
         <p className="text-2xl"><strong><br />Sigur Rós</strong></p>
         <p className="subtext">Favorite Songs: Skel, Glóð</p>
 
@@ -71,9 +74,6 @@ export default function artists() {
 
         <p className="text-2xl"><strong><br />Jónsi</strong></p>
         <p className="subtext">Favorite Songs: Vikur, Eyja</p>
-
-        <p className="text-2xl"><strong><br />Florist</strong></p>
-        <p className="subtext">Favorite Songs: Red Bird Pt.2, Spring In Hours</p>
       </main>     
     </>
   )
